@@ -1,12 +1,9 @@
 # Project Name:- Simple Python Project
 
-## Description:- Writing Testcases in robot Framework using Selenium library to search google for "python" 
+## Description:- Writing Testcases in Robot Framework using Selenium Library to search google for "python" 
 
 ### Steps to Automate:- 
-	*** Settings ***
-Library  SeleniumLibrary
 
-*** Variables ***
 ${browser}  chrome
 ${url}   https://www.google.com/
 
@@ -24,12 +21,3 @@ Google
    ${linkText}=  get text  xpath:(//div[@id='rso']//h3)[${i}]
    log to console   ${linkText}
    END
-
-
-
-
-
-
-
-
-*** Keywords ***
