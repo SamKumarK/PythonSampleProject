@@ -27,6 +27,19 @@
     
 ### Execution Instructions:-
 
-* 
+* Open Google Chrome browser by using url
+* Write the testcases to find
+* write a code to maximize the browser window 
+* Write a xpath to enter the "python" search engine
+
+## Output logs:-
+ *    Python Tutorial - W3Schools
+ *    Python (programming language) - Wikipedia
+ *    Videos
+ +    Python Tutorial - Tutorialspoint
+ *    Top stories
+ *    Python Courses & Tutorials | Codecademy
+ *    Online Python Compiler (Interpreter) - Programiz
+
 
 
