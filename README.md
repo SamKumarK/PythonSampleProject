@@ -36,7 +36,7 @@
  *    Python Tutorial - W3Schools
  *    Python (programming language) - Wikipedia
  *    Videos
- +    Python Tutorial - Tutorialspoint
+ *    Python Tutorial - Tutorialspoint
  *    Top stories
  *    Python Courses & Tutorials | Codecademy
  *    Online Python Compiler (Interpreter) - Programiz
