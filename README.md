@@ -1,45 +1,27 @@
-# Project Name:- Simple Python Project
+# Project Name:- Sample Python Project
 
 ## Description:- Writing Testcases in Robot Framework using Selenium Library to search google for "python" 
 
 ### Steps to Automate:- 
 
-    *** Settings ***
-    Library  SeleniumLibrary
-    *** Variables ***
-    ${browser}  chrome
-    ${url}   https://www.google.com/
-    *** Test Cases ***
-    Google
-    Open Browser    ${url}   ${browser}
-
-    Maximize Browser Window
-    Press Keys   xpath://input[@name='q']    Python+ENTER
-    ${AllLinksCount}=  get element count  xpath://div[@id='rso']//h3
-    log to console   ${AllLinksCount}
-
-     @{LinkItems}     create list
-     FOR     ${i}  IN RANGE  1    ${AllLinksCount}+1
-     ${linkText}=  get text  xpath:(//div[@id='rso']//h3)[${i}]
-     log to console   ${linkText}
-     END
-    *** Keywords ***
+1. Open Google Chrome browser by using url.
+2. Search for "Python".
+3. Read the hyperlinks displayed for "Python" search from Search Results.
     
 ### Execution Instructions:-
 
-* Open Google Chrome browser by using url
-* Write the testcases to find
-* write a code to maximize the browser window 
-* Write a xpath to enter the "python" search engine
+1. Download this project from Git.
+2. Open Pycharm IDE.
+3. Import the downloaded project as Python project.
+4. Go to Pycharm terminal
+5. Execute: robot .\SampleProject\Project.robot
+
 
 ## Output logs:-
- *    Python Tutorial - W3Schools
- *    Python (programming language) - Wikipedia
- *    Videos
- *    Python Tutorial - Tutorialspoint
- *    Top stories
- *    Python Courses & Tutorials | Codecademy
- *    Online Python Compiler (Interpreter) - Programiz
+ *   Please check log.html file from Project folder got updated as per recent execution.
+ *   Right click on log.html and Select Open In >> Browser >> Chrome to view the execution logs.
+
+
 
 
 
